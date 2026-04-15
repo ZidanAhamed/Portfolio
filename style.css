@@ -80,6 +80,7 @@ body{
     border: 1px solid #872BFF;
     border-radius: 20px;
     gap: 25px;
+    margin-bottom: 30px;
 }
 
 .project-image img {
@@ -103,6 +104,27 @@ body{
     margin-bottom: 20px;
 }
 
+.company-card {
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.brands {
+    padding: 40px;
+    box-shadow: 0px 4px 4px #0E0E0E15;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    
+}
+
+.brands:hover {
+    box-shadow: 0px 4px 4px #0E0E0E25;
+    transform: translateY(-5px);
+    transition-duration: 300ms;
+}
 
 
 
@@ -114,6 +136,7 @@ body{
     padding-left: 30px;
     padding-top: 20px;
     margin-bottom: 150px;
+    border: 1px solid #872BFF10;
 }
 #hero-container {
     display: flex;
@@ -171,23 +194,30 @@ body{
     color: white;
     }
 
-    #hero-image img {
+ #hero-image img {
         width: 520px;
         height: 600px;
         vertical-align: middle;
-    }
-    /* hero section end  */
+}
 
-    /* skill section   */
-
-    #skill{
+ #skill,#projects ,#experience{
         margin-bottom: 150px;
-    }
+ }
 
-    /* skill section end   */
+#btn-container {
+    text-align: center;
+    padding: 50px 0;
+}
+#footer {
+    margin-bottom: 20px;
+}
 
-
-    /* project section  */
-#projects {
-    margin-bottom: 150px;
-}    
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo {
+    display: flex;
+    gap: 40px;  
+}
