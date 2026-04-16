@@ -126,6 +126,10 @@ body{
     transition-duration: 300ms;
 }
 
+.hidden {
+    display: none;
+}
+
 
 
 /* common class end */
@@ -221,3 +225,81 @@ body{
     display: flex;
     gap: 40px;  
 }
+
+/* Resppnseive design  */
+
+/* 1024px - 1248px: Tablet landscape and small laptops.  */
+
+@media screen and (min-width: 1024px) and (max-width: 1248px) {
+    #hero-content h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#hero-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+}
+
+
+
+
+/* 768px - 1023px: Tablet portrait orientation. */
+
+@media screen and (max-width: 1023px) {
+    #hero-container {
+    flex-direction: column;
+    text-align: center;
+}
+#hero-content h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    
+}
+#hero-image img {
+    width: 400px;
+    height: 350px;
+}
+
+}
+
+/* 481px - 767px: Large smartphones and small tablets (landscape).  */
+
+
+
+
+/* 320px–480px: Small to medium smartphones (portrait).  */
+
+@media screen and (max-width: 480px) {
+    #hero-container {
+    flex-direction: column;
+    text-align: center;
+}
+#hero-content h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#hero-image img {
+    width: 100%;
+    
+}
+
+#hero-content p {
+    font-size: 14px;
+}
+#hero-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+}
+
+
+
+
+/* 1249px and above: Standard and large desktop monitors. */
