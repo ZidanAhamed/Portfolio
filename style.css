@@ -242,6 +242,13 @@ body{
     gap: 10px;
 }
 
+#footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    width: 100%;
+
+}
 }
 
 
@@ -274,6 +281,14 @@ body{
 .container {
     width: 90%;
     margin: 0 auto;
+}
+
+#footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    width: 100%;
+
 }
 
 
@@ -322,6 +337,7 @@ padding: 0px;
 .heading {
     text-align: center;
 }
+
 
 }
 
