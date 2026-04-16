@@ -269,6 +269,31 @@ body{
 
 /* 481px - 767px: Large smartphones and small tablets (landscape).  */
 
+@media screen and (max-width: 767px) {
+    
+    .cardbox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+}
+.card {
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.heading {
+    margin-bottom: 20px;
+}
+.heading h4 {
+    font-size: 18px;
+    margin: 0px;
+}
+.heading h2 {
+    font-size: 30px;
+}
+}
+
 
 
 
